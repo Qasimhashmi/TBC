@@ -1,0 +1,167 @@
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#0567ff, #013c98);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.02vh 5.55vw;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-container img {
+  width: 3.89vw;
+}
+.logo-container h1 {
+  font-size: clamp(14px, 2.8vw, 30px);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.copyright {
+  font-size: clamp(0.5rem, calc(0.3rem + 0.5vw), 0.78125rem);
+  vertical-align: super;
+  position: relative;
+  top: -0.3em;
+}
+.tagline {
+  text-wrap: nowrap;
+}
+.download-button {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 40px;
+  padding: 1rem 2rem;
+}
+.hamburger-icon {
+  display: none;
+  color: #ffffff;
+}
+
+.hero-content-section {
+  flex: 1;
+  padding: 8.39vh 5.55vw 0 5.55vw;
+}
+
+.banner-content {
+  display: flex;
+}
+
+.banner-left-content {
+  width: 65%;
+}
+
+.banner-left-content h2 {
+  font-size: clamp(32px, 4.58vw, 66px);
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 5.87vw;
+}
+
+.banner-left-content p {
+  font-size: clamp(15px, 1.52vw, 22px);
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 1.85vh;
+}
+.apps-qr-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 2.92vh;
+}
+
+.apps-qr-container img {
+  width: 6.25vw;
+  height: auto;
+}
+
+.app-store-rank {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.app-store-rank img {
+  width: 12.95vw;
+  height: auto;
+}
+
+.hero-bottom-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5.55vw;
+  align-items: center;
+}
+.hero-bottom-images img:first-child {
+  width: 53.47vw;
+}
+.hero-bottom-images img:last-child {
+  width: 31.25vw;
+}
+@media only screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+  .download-button {
+    display: none;
+  }
+  .logo-container h1 {
+    width: 60%;
+  }
+  .banner-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner-left-content {
+    width: 100%;
+  }
+  .app-store-rank {
+    width: 100%;
+  }
+  .app-store-rank img {
+    width: 28.76vw;
+  }
+  .apps-qr-container img {
+    width: 12.9vw;
+  }
+  .banner-left-content h2 {
+    line-height: 11.19vw;
+  }
+  .app-store-rank img {
+    margin-top: 10.17vw;
+  }
+  .hero-bottom-images {
+    flex-direction: column;
+  }
+  .hero-bottom-images img:first-child {
+    width: 100%;
+    margin-top: 7.63vw;
+  }
+  .hero-bottom-images img:last-child {
+    width: 100%;
+    margin-top: 10.43vw;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .apps-qr-container img {
+    width: 22.9vw;
+  }
+}
