@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="logo-container">
           <img src={logo} alt="" />
           <h1>
-            The Clear Quran<span class="copyright">&copy;</span>{" "}
+            The Clear Quran<span className="copyright">&copy;</span>{" "}
             <span className="tagline"> Audiobook - DRAMATIZED</span>
           </h1>
         </div>

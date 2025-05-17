@@ -1,0 +1,59 @@
+.benefits-container {
+  background-color: #1a1a28;
+  min-height: 100vh;
+  background-image: url(../../assets/benefots-bg-texture.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5.55vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.benefits-container h3 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: clamp(28px, 3.33vw, 48px);
+  width: 90%;
+}
+.benefits-container > p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: clamp(15px, 1.28vw, 20px);
+  width: 55%;
+  margin-top: 20px;
+}
+.benefits-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 5.55vw;
+  margin-top: 50px;
+}
+.badges-conatiner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.badges-conatiner > img {
+  width: 13.88vw;
+}
+
+.mobile-picture {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .benefits-card-container {
+    flex-direction: column;
+  }
+  .mobile-picture {
+    width: 80%;
+  }
+}

@@ -1,0 +1,35 @@
+.app-showcase-container {
+  background-color: #1a1a28;
+  height: 100vh;
+  background-image: url(../../assets/app-showcase.png);
+  background-position-x: center;
+  background-position-y: 85%;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 7.12vh 0;
+}
+.app-showcase-badges {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.app-showcase-badges img {
+  width: 10.31vw;
+}
+.app-showcase-container h1 {
+  font-size: clamp(24px, 3.33vw, 48px);
+  font-weight: 500;
+  margin-bottom: 1.95vh;
+}
+.app-showcase-container p {
+  font-size: clamp(15px, 1.38vw, 20px);
+  font-weight: 400;
+  margin-bottom: 2.92vh;
+}
+@media only screen and (max-width: 768px) {
+  .app-showcase-badges img {
+    width: 34.35vw;
+  }
+}

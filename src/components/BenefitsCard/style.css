@@ -1,0 +1,27 @@
+.card-container {
+  width: 20%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-icon-container {
+  width: 34px;
+  height: 34px;
+  background-color: #ffffff10;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card-container {
+    width: 100%;
+  }
+}
