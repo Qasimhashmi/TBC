@@ -9,13 +9,13 @@ import SubcriptionModle from "./components/SubciptionModle";
 function App() {
   return (
     <>
-      {/* <HeroSection />
+      <HeroSection />
       <Features />
-      <AppBenefits /> */}
+      <AppBenefits />
       <SubcriptionModle />
-      {/* <CommunityStories />
+      <CommunityStories />
       <AppShowcase />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
